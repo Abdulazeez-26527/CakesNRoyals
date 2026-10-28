@@ -387,6 +387,51 @@ body {
   font-style: italic;
 }
 
+/* CERTIFICATE */
+.cert-section {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 60px 40px;
+  background: #1a120d;
+  color: #fdfaf3;
+  flex-wrap: wrap;
+}
+
+.cert-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.cert-text h2 {
+  font-size: 28px;
+  margin: 8px 0 15px;
+}
+
+.cert-text p {
+  font-size: 14px;
+  color: #d8cfc6;
+}
+
+.cert-image {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.cert-image img {
+  width: 100%;
+  max-width: 340px;
+  border-radius: 12px;
+  border: 2px solid #f2c230;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease;
+}
+
+.cert-image img:hover {
+  transform: scale(1.04);
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .story-section,
